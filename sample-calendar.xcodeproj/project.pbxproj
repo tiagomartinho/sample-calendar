@@ -15,9 +15,9 @@
 		450E82D51AF9AF0300156010 /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 450E82CE1AF9AF0300156010 /* CalendarViewController.m */; };
 		450E82D61AF9AF0300156010 /* CalendarViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 450E82D01AF9AF0300156010 /* CalendarViewLayout.m */; };
 		450E82D71AF9AF0300156010 /* EventViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 450E82D21AF9AF0300156010 /* EventViewCell.m */; };
-		450E82D81AF9AF0300156010 /* HourReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 450E82D41AF9AF0300156010 /* HourReusableView.m */; };
 		EAA250681F9B4A92003D11A8 /* CalendarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA250671F9B4A92003D11A8 /* CalendarController.swift */; };
 		EAA2506A1F9B4D67003D11A8 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA250691F9B4D67003D11A8 /* Event.swift */; };
+		EAA2506C1F9B4F0A003D11A8 /* HourReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA2506B1F9B4F0A003D11A8 /* HourReusableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,11 +47,10 @@
 		450E82D01AF9AF0300156010 /* CalendarViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarViewLayout.m; sourceTree = "<group>"; };
 		450E82D11AF9AF0300156010 /* EventViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventViewCell.h; sourceTree = "<group>"; };
 		450E82D21AF9AF0300156010 /* EventViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventViewCell.m; sourceTree = "<group>"; };
-		450E82D31AF9AF0300156010 /* HourReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HourReusableView.h; sourceTree = "<group>"; };
-		450E82D41AF9AF0300156010 /* HourReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HourReusableView.m; sourceTree = "<group>"; };
 		EAA250661F9B4A91003D11A8 /* sample-calendar-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sample-calendar-Bridging-Header.h"; sourceTree = "<group>"; };
 		EAA250671F9B4A92003D11A8 /* CalendarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarController.swift; sourceTree = "<group>"; };
 		EAA250691F9B4D67003D11A8 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		EAA2506B1F9B4F0A003D11A8 /* HourReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourReusableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,8 +138,7 @@
 				450E82D01AF9AF0300156010 /* CalendarViewLayout.m */,
 				450E82D11AF9AF0300156010 /* EventViewCell.h */,
 				450E82D21AF9AF0300156010 /* EventViewCell.m */,
-				450E82D31AF9AF0300156010 /* HourReusableView.h */,
-				450E82D41AF9AF0300156010 /* HourReusableView.m */,
+				EAA2506B1F9B4F0A003D11A8 /* HourReusableView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -257,10 +255,10 @@
 			files = (
 				450E82D61AF9AF0300156010 /* CalendarViewLayout.m in Sources */,
 				EAA2506A1F9B4D67003D11A8 /* Event.swift in Sources */,
-				450E82D81AF9AF0300156010 /* HourReusableView.m in Sources */,
 				450E82991AF9691900156010 /* AppDelegate.m in Sources */,
 				450E82961AF9691900156010 /* main.m in Sources */,
 				450E82D51AF9AF0300156010 /* CalendarViewController.m in Sources */,
+				EAA2506C1F9B4F0A003D11A8 /* HourReusableView.swift in Sources */,
 				450E82D71AF9AF0300156010 /* EventViewCell.m in Sources */,
 				EAA250681F9B4A92003D11A8 /* CalendarController.swift in Sources */,
 			);
