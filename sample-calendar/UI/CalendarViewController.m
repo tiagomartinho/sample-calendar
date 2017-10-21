@@ -8,7 +8,6 @@
 
 #import "CalendarViewController.h"
 #import "sample_calendar-Swift.h"
-#import "Event.h"
 #import "CalendarViewLayout.h"
 #import "HourReusableView.h"
 #import "EventViewCell.h"

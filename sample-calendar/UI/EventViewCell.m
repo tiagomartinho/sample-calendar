@@ -7,7 +7,7 @@
 //
 
 #import "EventViewCell.h"
-#import "Event.h"
+#import "sample_calendar-Swift.h"
 
 @interface EventViewCell()
 @property (nonatomic) UIView *leftBorderView;
