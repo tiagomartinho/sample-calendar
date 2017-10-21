@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "CalendarViewController.h"
+#import "sample_calendar-Swift.h"
 
 @interface AppDelegate ()
 
