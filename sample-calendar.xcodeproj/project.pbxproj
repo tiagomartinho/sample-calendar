@@ -12,12 +12,12 @@
 		450E82A11AF9691900156010 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 450E82A01AF9691900156010 /* Images.xcassets */; };
 		450E82A41AF9691900156010 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 450E82A21AF9691900156010 /* LaunchScreen.xib */; };
 		450E82B01AF9691900156010 /* sample_calendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 450E82AF1AF9691900156010 /* sample_calendarTests.m */; };
-		450E82C61AF9966B00156010 /* CalendarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 450E82C51AF9966B00156010 /* CalendarController.m */; };
 		450E82C91AF996DD00156010 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 450E82C81AF996DD00156010 /* Event.m */; };
 		450E82D51AF9AF0300156010 /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 450E82CE1AF9AF0300156010 /* CalendarViewController.m */; };
 		450E82D61AF9AF0300156010 /* CalendarViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 450E82D01AF9AF0300156010 /* CalendarViewLayout.m */; };
 		450E82D71AF9AF0300156010 /* EventViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 450E82D21AF9AF0300156010 /* EventViewCell.m */; };
 		450E82D81AF9AF0300156010 /* HourReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 450E82D41AF9AF0300156010 /* HourReusableView.m */; };
+		EAA250681F9B4A92003D11A8 /* CalendarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA250671F9B4A92003D11A8 /* CalendarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +41,6 @@
 		450E82A91AF9691900156010 /* sample-calendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sample-calendarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		450E82AE1AF9691900156010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		450E82AF1AF9691900156010 /* sample_calendarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sample_calendarTests.m; sourceTree = "<group>"; };
-		450E82C41AF9966B00156010 /* CalendarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarController.h; sourceTree = "<group>"; };
-		450E82C51AF9966B00156010 /* CalendarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarController.m; sourceTree = "<group>"; };
 		450E82C71AF996DD00156010 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
 		450E82C81AF996DD00156010 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
 		450E82CD1AF9AF0300156010 /* CalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
@@ -53,6 +51,8 @@
 		450E82D21AF9AF0300156010 /* EventViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventViewCell.m; sourceTree = "<group>"; };
 		450E82D31AF9AF0300156010 /* HourReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HourReusableView.h; sourceTree = "<group>"; };
 		450E82D41AF9AF0300156010 /* HourReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HourReusableView.m; sourceTree = "<group>"; };
+		EAA250661F9B4A91003D11A8 /* sample-calendar-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sample-calendar-Bridging-Header.h"; sourceTree = "<group>"; };
+		EAA250671F9B4A92003D11A8 /* CalendarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,10 +149,10 @@
 		450E82C31AF977C500156010 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
-				450E82C41AF9966B00156010 /* CalendarController.h */,
-				450E82C51AF9966B00156010 /* CalendarController.m */,
 				450E82C71AF996DD00156010 /* Event.h */,
 				450E82C81AF996DD00156010 /* Event.m */,
+				EAA250671F9B4A92003D11A8 /* CalendarController.swift */,
+				EAA250661F9B4A91003D11A8 /* sample-calendar-Bridging-Header.h */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -206,6 +206,7 @@
 				TargetAttributes = {
 					450E828F1AF9691900156010 = {
 						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 0900;
 					};
 					450E82A81AF9691900156010 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -259,10 +260,10 @@
 				450E82D61AF9AF0300156010 /* CalendarViewLayout.m in Sources */,
 				450E82D81AF9AF0300156010 /* HourReusableView.m in Sources */,
 				450E82991AF9691900156010 /* AppDelegate.m in Sources */,
-				450E82C61AF9966B00156010 /* CalendarController.m in Sources */,
 				450E82961AF9691900156010 /* main.m in Sources */,
 				450E82D51AF9AF0300156010 /* CalendarViewController.m in Sources */,
 				450E82D71AF9AF0300156010 /* EventViewCell.m in Sources */,
+				EAA250681F9B4A92003D11A8 /* CalendarController.swift in Sources */,
 				450E82C91AF996DD00156010 /* Event.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -383,9 +384,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = "sample-calendar/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "sample-calendar/Domain/sample-calendar-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -393,15 +399,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = "sample-calendar/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "sample-calendar/Domain/sample-calendar-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		450E82B71AF9691900156010 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -421,6 +432,7 @@
 		450E82B81AF9691900156010 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",

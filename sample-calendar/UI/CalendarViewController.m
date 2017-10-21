@@ -7,7 +7,7 @@
 //
 
 #import "CalendarViewController.h"
-#import "CalendarController.h"
+#import "sample_calendar-Swift.h"
 #import "Event.h"
 #import "CalendarViewLayout.h"
 #import "HourReusableView.h"
