@@ -9,7 +9,6 @@
 #import "CalendarViewController.h"
 #import "sample_calendar-Swift.h"
 #import "CalendarViewLayout.h"
-#import "EventViewCell.h"
 
 
 @interface CalendarViewController () <UICollectionViewDataSource, UICollectionViewDelegate, CalendarViewLayoutDelegate>
@@ -48,7 +47,7 @@
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     EventViewCell *view = [collectionView dequeueReusableCellWithReuseIdentifier:@"event" forIndexPath:indexPath];
-    view.event = [self.calendarController eventAtIndex:indexPath.item];
+    [view setWithEvent:[self.calendarController eventAtIndex:indexPath.item]];
     return view;
 }
 
